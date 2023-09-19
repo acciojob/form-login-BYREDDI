@@ -3,7 +3,6 @@ function getFormvalue() {
 	let elements=document.getElementsByTagName("input");
 	let firstName=elements[0];
 	let lastName=elements[1];
-	alert(firstName.value);
-	alert(lastName.value);
+	alert(firstName.value+" "+lastName.value);
 
 }
