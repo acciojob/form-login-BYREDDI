@@ -4,6 +4,6 @@ function getFormvalue() {
 	let firstName=elements[0];
 	let lastName=elements[1];
 	alert(firstName.value);
-	alert("lastName.value");
+	alert(lastName.value);
 
 }
